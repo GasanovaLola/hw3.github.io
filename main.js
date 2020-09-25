@@ -29,11 +29,7 @@ for (let i = 0; i < n; i++) {
     while (isNaN(temp) || temp < 0) {
         temp = +prompt("Введите значение");
     }
-    console.log(temp , "temp");
-
     array[i] = temp;
-    
-    console.log(array[i]);
 }
 
 console.log(array);
