@@ -2,14 +2,9 @@ console.log(" -------------------- Задание №1 --------------------\n");
 var A = [];
 var size = 10;
 
-console.log("Массив")
 for(var i = 0; i < size; i++) {
     A[i] = Math.round(Math.random() * (15 - 1) + 1);
-}
-console.log(A);
-
-for(var i = 0; i < size; i++) {
-
+    
     if (i % 2 != 0 ) {
         A[i] = 0;
     }
